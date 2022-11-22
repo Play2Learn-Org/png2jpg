@@ -1,2 +1,14 @@
 # pngtojpg
-Why would anybody want to allow upload of any other file format but jpg?
+
+```
+$ git clone <repo>
+$ cd <repo>
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install -e .
+$ cd <png location>
+$ png2jpg
+$ deactivate #virtualenv
+```
+
+enjoy :)
